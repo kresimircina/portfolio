@@ -3,10 +3,10 @@
 
 function Sidebar() {
   const navItems = [
-    { label: 'O meni', href: '#about' },
-    { label: 'Projekti', href: '#projects' },
-    { label: 'Kontakt', href: '#contact' },
-  ];
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Contact', href: '#contact' },
+];
 
   return (
     <div className="flex flex-col justify-between h-full">
@@ -18,7 +18,7 @@ function Sidebar() {
           Frontend developer
         </p>
         <p className="text-sm text-slate-400 mt-4 max-w-xs">
-          Karijeru sam promijenio u 40-oj i već isporučio prvi klijentski projekt. Sljedeći na redu — možda tvoj.
+         Based in Vukovar, Croatia. Changed careers at 40 and already shipped the first client project. Next up — maybe yours.
         </p>
 
         <nav className="mt-12 hidden lg:block">

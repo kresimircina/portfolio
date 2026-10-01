@@ -1,42 +1,42 @@
 // projects.js
-// Centralizirana baza podataka o projektima
+// Centralized data source for all projects
 
 export const projects = [
   {
     id: 'ivi-catering',
     title: 'IVI Catering',
-    tagline: 'Web stranica za catering tvrtku — React frontend + headless WordPress',
+    tagline: 'Website for a catering company — React frontend + headless WordPress',
     description:
-      'IVI Catering je moja prva izrada web stranice za pravog klijenta. Cilj je bio napraviti modernu i brzu web stranicu kojom klijent može samostalno upravljati sadržajem bez razvijača.',
+      'IVI Catering is my first project built for a real client. The goal was to create a modern, fast website where the client can manage content independently, without needing a developer.',
     role:
-      'Samostalna izrada — od inicijalnog dizajna i frontend koda, preko postavljanja headless CMS-a, do produkcijskog deploymenta i konfiguracije domene.',
+      'Solo build — from initial design and frontend code, through headless CMS setup, to production deployment and domain configuration.',
     tech: ['React', 'React Router', 'JavaScript', 'CSS', 'WordPress (headless)', 'EmailJS', 'Vercel'],
     highlights: [
-      'Headless WordPress na cms.ivi.hr kao izvor sadržaja, React frontend povlači podatke preko REST API-ja',
-      'Kontakt forma s EmailJS integracijom — servis šalje mailove direktno iz frontenda, bez potrebe za vlastitim backendom',
-      'Kompletna produkcijska konfiguracija: DNS, SSL, CORS između frontend i CMS domene',
-      'Deployment na Vercel s automatskim buildom iz GitHub repozitorija',
+      'Headless WordPress on cms.ivi.hr as content source, React frontend fetching data via REST API',
+      'Contact form with EmailJS integration — service sends emails directly from the frontend, no custom backend needed',
+      'Full production configuration: DNS, SSL, CORS between frontend and CMS domains',
+      'Vercel deployment with automatic builds from GitHub repository',
     ],
     liveUrl: 'https://ivi.hr',
-    githubUrl: null, // privatni repo za klijenta
+    githubUrl: null,
     imageUrl: '/images/ivi-catering.png',
   },
   {
     id: 'vucast',
     title: 'VuCast',
-    tagline: 'Vremenska prognoza — React SPA s OpenWeatherMap API-jem',
+    tagline: 'Weather forecast — React SPA with OpenWeatherMap API',
     description:
-      'VuCast je weather aplikacija koja dohvaća trenutno vrijeme i 5-dnevnu prognozu za bilo koji grad na svijetu. Projekt je nastao kao vježba integracije vanjskog REST API-ja, transformacije podataka i rada s browser Geolocation API-jem. Naziv je referenca na Vukovar, grad kojem gravitiram.',
+      'VuCast is a weather application that fetches current weather and a 5-day forecast for any city worldwide. The project started as practice in integrating a third-party REST API, transforming data, and working with the browser Geolocation API. The name is a reference to Vukovar, the city I\'m closest to.',
     role:
-      'Samostalna izrada — od dizajna, komponenata, API integracije do produkcijskog deploymenta.',
+      'Solo build — from design and components to API integration and production deployment.',
     tech: ['React 19', 'Vite', 'Tailwind CSS v4', 'JavaScript', 'OpenWeatherMap API', 'Vercel'],
     highlights: [
-      'Dva API endpoint-a (/weather i /forecast) pozvana paralelno kroz Promise.all za bolje performanse',
-      'Data transformation utility — grupiranje 40 3-satnih intervala u 5 dnevnih sažetaka s reprezentativnom ikonom i min/max temperaturom',
-      'Browser Geolocation API za "koristi moju lokaciju" funkcionalnost s permission handlingom',
-      'Dinamična gradient pozadina koja se mijenja ovisno o trenutnom vremenu i dobu dana',
-      'Toggle između °C i °F s automatskim osvježavanjem podataka',
-      'Sigurno rukovanje API ključem kroz Vite environment variables',
+      'Two API endpoints (/weather and /forecast) called in parallel via Promise.all for better performance',
+      'Data transformation utility — grouping 40 three-hour intervals into 5 daily summaries with representative icon and min/max temperature',
+      'Browser Geolocation API for "use my location" feature with permission handling',
+      'Dynamic gradient background that changes based on current weather and time of day',
+      'Toggle between °C and °F with automatic data refresh',
+      'Secure API key handling through Vite environment variables',
     ],
     liveUrl: 'https://vucast.vercel.app',
     githubUrl: 'https://github.com/kresimircina/vucast',

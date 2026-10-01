@@ -8,11 +8,11 @@ function Projects() {
   return (
     <section id="projects" className="mb-24">
       <h2 className="text-sm uppercase tracking-widest text-emerald-400 mb-6 lg:hidden">
-        Projekti
+        Projects
       </h2>
 
       <h2 className="hidden lg:block text-2xl font-bold text-slate-100 mb-8">
-        Projekti
+        Projects
       </h2>
 
       <div className="space-y-6">

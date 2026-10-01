@@ -5,31 +5,31 @@ function About() {
   return (
     <section id="about" className="mb-24">
       <h2 className="text-sm uppercase tracking-widest text-emerald-400 mb-4 lg:hidden">
-        O meni
-      </h2>
+  About
+</h2>
 
-      <div className="space-y-4 text-slate-300 leading-relaxed">
-        <p>
-          Do developmenta sam došao kasno — s 40 godina, kroz program za frontend developere na učilištu za poslovno upravljanje. Prije toga nisam ni razmišljao o kodiranju. Ono što me uvuklo bili su predavači: pokazali su mi da iza svake web stranice stoji logika koju mogu razumjeti, i alati koje mogu naučiti koristiti.
-        </p>
+<div className="space-y-4 text-slate-300 leading-relaxed">
+  <p>
+    I came to development late — at age 40, through a frontend developer program at a business education center in Croatia. Before that, I hadn't even considered coding. What drew me in were the instructors: they showed me that behind every web page sits logic I can understand, and tools I can learn to use.
+  </p>
 
-        <p>
-          Nakon 6 mjeseci učenja i prakse, isporučio sam svoj prvi klijentski projekt —{' '}
-          <a
-            href="https://ivi.hr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-emerald-400 hover:underline"
-          >
-            IVI Catering
-          </a>
-          , stranica s React frontendom i headless WordPress backendom. Kroz taj projekt sam prošao cijeli ciklus: od dizajna i koda do DNS-a, SSL-a i produkcijskog deploymenta.
-        </p>
+  <p>
+    After 6 months of learning and practice, I shipped my first client project —{' '}
+    <a
+      href="https://ivi.hr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-emerald-400 hover:underline"
+    >
+      IVI Catering
+    </a>
+    , a React frontend with a headless WordPress backend. Through that project I went through the full cycle: from design and code to DNS, SSL and production deployment.
+  </p>
 
-        <p>
-          Trenutno produbljujem znanje Reacta i širim se prema full-stack developmentu s Node.js-om. Otvoren sam za frontend pozicije, freelance projekte i suradnju.
-        </p>
-      </div>
+  <p>
+    I'm currently sharpening my React skills and expanding toward full-stack development with Node.js. Open to frontend positions, freelance projects, and collaboration — remote-friendly, based in Vukovar, Croatia.
+  </p>
+</div>
     </section>
   );
 }
